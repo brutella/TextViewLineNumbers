@@ -8,7 +8,7 @@ The main focus of this project is to provide a simple way of displaying line num
 
 Matthias Hochgatterer
 
-Github: [https://github.com/brutella/](https://github.com/brutella)
+Github: [https://github.com/brutella](https://github.com/brutella)
 
 Twitter: [https://twitter.com/brutella](https://twitter.com/brutella)
 
