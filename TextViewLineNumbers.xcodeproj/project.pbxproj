@@ -12,6 +12,8 @@
 		10EFD6A71AD545DF003FB7F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EFD6A61AD545DF003FB7F6 /* Images.xcassets */; };
 		10EFD6AA1AD545DF003FB7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EFD6A81AD545DF003FB7F6 /* Main.storyboard */; };
 		10EFD6B61AD545DF003FB7F6 /* TextViewLineNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EFD6B51AD545DF003FB7F6 /* TextViewLineNumbersTests.swift */; };
+		10EFD6C11AD54622003FB7F6 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EFD6BF1AD54622003FB7F6 /* CodeTextView.swift */; };
+		10EFD6C21AD54622003FB7F6 /* LineNumberRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EFD6C01AD54622003FB7F6 /* LineNumberRulerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		10EFD6AF1AD545DF003FB7F6 /* TextViewLineNumbersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewLineNumbersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EFD6B41AD545DF003FB7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10EFD6B51AD545DF003FB7F6 /* TextViewLineNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLineNumbersTests.swift; sourceTree = "<group>"; };
+		10EFD6BF1AD54622003FB7F6 /* CodeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		10EFD6C01AD54622003FB7F6 /* LineNumberRulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNumberRulerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		10EFD69F1AD545DF003FB7F6 /* TextViewLineNumbers */ = {
 			isa = PBXGroup;
 			children = (
+				10EFD6BF1AD54622003FB7F6 /* CodeTextView.swift */,
+				10EFD6C01AD54622003FB7F6 /* LineNumberRulerView.swift */,
 				10EFD6A21AD545DF003FB7F6 /* AppDelegate.swift */,
 				10EFD6A41AD545DF003FB7F6 /* ViewController.swift */,
 				10EFD6A61AD545DF003FB7F6 /* Images.xcassets */,
@@ -208,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EFD6C11AD54622003FB7F6 /* CodeTextView.swift in Sources */,
 				10EFD6A51AD545DF003FB7F6 /* ViewController.swift in Sources */,
+				10EFD6C21AD54622003FB7F6 /* LineNumberRulerView.swift in Sources */,
 				10EFD6A31AD545DF003FB7F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
