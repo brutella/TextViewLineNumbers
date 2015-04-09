@@ -15,4 +15,4 @@ Twitter: [https://twitter.com/brutella](https://twitter.com/brutella)
 
 # License
 
-The project is available under the MIT license. See the LICENSE file for more info.
+The project is available under the GNU General Public License. See the LICENSE file for more info.
